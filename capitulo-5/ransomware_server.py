@@ -32,7 +32,9 @@ if __name__ == "__main__":
     tcp_server = socketserver.TCPServer((HOST, PORT), ClientHandler)
 
     try:
-        print("[+] Starting server...")
+        print("[+] Server started.")
         tcp_server.serve_forever()
+    except KeyboardInterrupt:
+        print("\n[-] Server stopped.")
     except:
         print("[!] Something went wrong.")

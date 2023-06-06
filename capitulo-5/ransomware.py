@@ -20,13 +20,12 @@ def send_encrypted_key(e_key_file_path):
     with socket.create_connection((HOST, PORT)) as sock:
         with open(e_key_file_path, "rb") as file:
             sock.send(file.read())
-
         decrypted_key = sock.recv(1024)
 
     return decrypted_key
 
-symmetric_key = Fernet.generate_key()
 
+symmetric_key = Fernet.generate_key()
 FernetInstance = Fernet(symmetric_key)
 
 HOST, PORT = "127.0.0.1", 8000
