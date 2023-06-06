@@ -21,7 +21,10 @@ Capítulo 4
 
 Capítulo 5
 
-- Criptografando e descriptografando usando Block Cipher modo Counter
-- Criptografando com RSA
 - Ransomware em Python
 - Criação de servidor remoto para descriptografar chave da máquina infectada
+
+Capítulo 6
+
+- Criação de um servidor para o ransomware que implementa o protocolo TLS
+- Atualização do código do ransomware para uso do TLS
