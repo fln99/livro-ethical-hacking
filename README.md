@@ -1,6 +1,8 @@
 # livro-ethical-hacking
 Exercícios resolvidos do livro "Ethical Hacking - A Hands-on Introduction to Breaking In"
 
+Disponível em: nostarch.com/ethical-hacking
+
 ATENÇÃO: Códigos para propósito educacional, NÃO use-os para atitudes ilícitas!!!
 
 Os exercícios estão separados com base nos capítulos em que aparecem...
